@@ -16,16 +16,26 @@
 #   The version of the composer project that should be checked out
 #
 # [*dev*]
-#   Either ```curl``` or ```wget```.
+#   boolean
 #
-# [*logoutput*]
-#   If the output should be logged. Defaults to FALSE.
+# [*prefer_source*]
+#  boolean 
 #
-# [*tmp_path*]
-#   Where the composer.phar file should be temporarily put.
+# [*stability*]
+#   
+# 
+# [*repository_url*]
+# 
+# 
+# [*keep_vcs*]
+#  boolean
+# 
+# [*tries*]
+#  integer
+# 
+# [*timeout*]
+#  integer (seconds)
 #
-# [*php_package*]
-#   The Package name of the PHP CLI package.
 #
 # [*user*]
 #   The user name to exec the composer commands as. Default is composer::user.
